@@ -4,26 +4,23 @@ class Shape{
     }
 }
 
-class Square  extends Shape{
+class Square extends Shape{
     draw(){
-        return "I am a Square"
+        return "I am a square"
     }
 }
 
-class Circle  extends Shape{
+class Circle extends Shape{
     draw(){
-        return "I am a Circle"
+        return "I am a circle"
     }
 }
 
 let shape = new Shape();
 console.log(shape.draw());
 
-let square = new Square();
-console.log(square.draw());
+shape = new Square();
+console.log(shape.draw());
 
-let circle = new Circle();
-console.log(circle.draw());
-
-
-
+shape = new Circle();
+console.log(shape.draw());
